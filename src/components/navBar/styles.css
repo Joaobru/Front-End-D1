@@ -1,0 +1,81 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin-left: 5%;
+}
+
+.navBar .logoNav {
+  margin-top: 2%;
+  color: white;
+  border: solid 1px #CCCFDE;
+  width: 50%;
+  height: 30%;
+  padding: 0.5rem;
+  padding-right: 0;
+  margin-left: 20%;
+}
+.navBar .groupLogoName {
+  width: 12%;
+  display: flex;
+  align-items: center;
+}
+.navBar .groupLogoName h2 {
+  background-color: #117EFF;
+  color: white;
+  border-radius: 100%;
+  padding: 0.5rem;
+}
+.navBar .logoNav img {
+  width: 90%;
+}
+
+.navBar .buttonInput {
+  display: flex;
+  margin-top: 2%;
+}
+
+.navBar .buttonInput .input {
+  display: flex;
+  height: 30%;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+  margin-right: 5%;
+  background-color: white;
+  border: solid 1px #CCCFDE;
+  cursor: pointer;
+}
+
+.navBar .buttonInput .input:hover  {
+  box-shadow: 0px 0px 8px 0.2px #696969;
+}
+
+.navBar .buttonInput .input input {
+  border: 0;
+  height: 2rem;
+  padding-left: 0.5rem;
+}
+
+.navBar button {
+  border: 0;
+  color: white;
+  background-color: #117EFF;
+  line-break: keep-all;
+  padding: 0.5rem;
+  height: 80%;
+  white-space: nowrap;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.navBar button:hover {
+  background-image: linear-gradient( to right, #14E9F0, #117EFF );
+}
+
+@media(min-width: 1000px) {
+  .navBar .logoNav {
+    width: 60%;
+  }
+}

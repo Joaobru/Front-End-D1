@@ -1,0 +1,30 @@
+
+.listJourneys {
+  width: 60%;
+  margin-top: 8%;
+  font-size: 1.6rem;
+}
+
+.listJourneys .journeys {
+  display: grid;
+  grid-template-columns: 40% 20% 20% 20%;
+  margin-top: 4%;
+  background-color: white;
+}
+
+.listJourneys .journeys {
+  color: #3E4157;
+  padding: 0.5rem;
+}
+
+.listJourneys .journeys .nameJourney {
+  padding-left: 1rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.listJourneys .journeys .infoJourney {
+  margin: 0 auto;
+  
+}
+

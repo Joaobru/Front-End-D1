@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 60%;
+  background-color: #FAFBFF;
+}
+
+textarea:focus, input:focus, select:focus, button:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} 
