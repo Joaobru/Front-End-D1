@@ -3,12 +3,23 @@
   padding: 0;
 }
 :root {
-  font-size: 60%;
+  font-size: 56%;
   background-color: #FAFBFF;
+  font-family: 'Gotham-Book';
 }
 
-textarea:focus, input:focus, select:focus, button:focus {
+textarea:focus, input:focus, select:focus, button:focus{
   box-shadow: 0 0 0 0;
   border: 0 none;
   outline: 0;
 } 
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('./fonts/Gotham-Book.woff');
+}
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url('./fonts/Gotham-Bold.woff');
+}
