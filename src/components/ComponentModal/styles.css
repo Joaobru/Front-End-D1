@@ -1,0 +1,69 @@
+.modal {
+  display: flex;
+  width: 40%;
+  height: 25%;
+  margin: 0 auto;
+  margin-top: 15%;
+  background-color: white;
+  border-radius: 5px;
+  border: #E4E6F1 solid 0.1rem;
+  font-size: 13px;
+}
+
+.modal:focus {
+  border: #E4E6F1 solid 0.1rem;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.modal .containerModal {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  color: #9196AB;
+  margin: 0 auto;
+}
+.modal .containerModal h2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: 'Gotham-Bold';
+  font-size: 13px;
+} 
+
+.modal .containerModal .components {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.modal .containerModal .components input {
+  width: 100%;  
+  height: 33px;
+  border: #E4E6F1 solid 0.1rem;
+  border-radius: 5px;
+  color: #696969;
+}
+
+.modal .containerModal .components input:focus {
+  box-shadow: 0 0 0 0;
+  border: #E4E6F1 solid 0.1rem;
+} 
+
+.modal .containerModal .buttons {
+  margin: 0 auto;
+}
+
+.modal .containerModal .buttons button {
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+  font-family: 'Gotham-Bold';
+}
+
+.modal .containerModal .buttons button:first-child {
+  color: #117EFF;
+  padding-right: 2rem;
+}
+
+.modal .containerModal .buttons button + button {
+  color: #9196AB;
+}

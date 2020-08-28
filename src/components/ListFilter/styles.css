@@ -1,0 +1,56 @@
+.listFilter {
+  margin-top: 8%;
+  width: 20%;
+  height: 55%;
+}
+
+.listFilter h1 {
+  font-family: 'Gotham-Bold';
+  color: #3E4157;
+  font-size: 16px;
+}
+
+.listFilter ul {
+  margin-top: 10%;
+}
+
+.listFilter ul li {
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7%;
+}
+
+.listFilter ul li p {
+  font-size: 13px;
+}
+
+.listFilter ul li .iconName img {
+  width: 16px;
+}
+
+.listFilter ul li .iconName {
+  display: flex;
+  align-items: center;
+}
+
+.listFilter ul li .iconName p {
+  padding-left: 0.8rem;
+  transition: 0.5s;
+}
+
+.listFilter ul li .iconName p:hover {
+  color: #117EFF;
+  cursor: pointer;
+}
+
+.contFilter {
+  background-color: #E4E6F1;
+  color: #9196AB;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
