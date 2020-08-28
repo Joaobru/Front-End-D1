@@ -4,7 +4,7 @@
 
 <p align="center"> 
   Este é um projeto com fins educativos, eu construi uma aplicação que
-  consome dados de uma api do heroku, com esses dados ela monta um filtro 
+  consome dados de uma api no heroku, com esses dados ela monta um filtro 
   de informações e a partir deste filtro monta uma tabela. 
 </p>
 
