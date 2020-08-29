@@ -7,7 +7,7 @@
   consome dados de uma api no heroku, com esses dados ela monta um filtro 
   de informações e a partir deste filtro monta uma tabela. 
   <br>
-  Observação: O foco do projeto não foi a responsividade e sim o uso de state, react hooks e props.
+  <strong>Observação:</strong> O foco do projeto não foi a responsividade e sim o uso de state, react hooks e props.
   Você pode visualizar o projeto em: https://affectionate-khorana-5ac293.netlify.app/
 </p>
 
