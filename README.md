@@ -7,7 +7,7 @@
   consome dados de uma api no heroku, com esses dados ela monta um filtro 
   de informações e a partir deste filtro monta uma tabela. 
   <br>
-  Você pode visualizar o projeto em: https://epic-meitner-a60d15.netlify.app/
+  Você pode visualizar o projeto em: https://festive-almeida-f68054.netlify.app/
 </p>
 
 
