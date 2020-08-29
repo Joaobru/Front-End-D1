@@ -1,7 +1,7 @@
 .modal {
   display: flex;
   width: 40%;
-  height: 30%;
+  height: 32%;
   margin: 0 auto;
   margin-top: 15%;
   background-color: white;
@@ -19,6 +19,7 @@
 .modal .containerModal {
   width: 80%;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   color: #9196AB;
   margin: 0 auto;
