@@ -1,6 +1,7 @@
 .lateralMenu {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   height: 100vh;
   width: 5%;
   position: fixed;
@@ -15,20 +16,12 @@
 .lateralMenu .logotipo img{
   width: 34px;
   height: 20px;
-  margin-top: 35px;
 }
 
 .containerImages {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.containerImages{
-  margin-top: 67px;
-}
-.containerImages + .containerImages {
-  margin-top: 150px;
 }
 
 .groupImagesLeft {
