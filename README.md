@@ -12,7 +12,7 @@
 </p>
 
 
-## Aplicação Web
+## :computer: Aplicação 
 
 ### Home 
 
@@ -20,28 +20,45 @@
     <img alt="Home" title="Home" src="assets/D1Home.PNG">
 </p>
 
-## Funcionalidades
+## :bulb: Funcionalidades
 
 * Listar dados;
 
 * Aplicar filtro.
 
+## :wrench: Pré-requisitos
 
-## Para rodar a aplicação
+ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como o [VSCode](https://code.visualstudio.com/).
 
-  * A primeira coisa é executar o comando yarn ou npm install,
-  para instalar todas as dependencias necessárias.
+## :rocket: Para rodar a aplicação
 
-  * Após a execução do comando yarn ou npm install efetue yarn start
-  ou npm start, para rodar a aplicação.
+```bash
 
-## Tecnologias
+# Clone este repositório
+$ git clone https://github.com/Joaobru/Front-End-D1.git
 
-  * ReactJS (Web Front-End);
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd Front-End-D1-master
 
-  * Axios (Para usar os dados do Back-End);
+# Execute o comando para instalar todas as dependências
+$ npm install ou yarn
 
-  * React-Router-Dom (Configuração de rotas).
+# Execute a aplicação em modo de desenvolvimento
+$ npm start ou yarn start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+```
+
+## 🛠 Tecnologias
+
+  * [ReactJS](https://reactjs.org/) (Web Front-End);
+
+  * [Axios](https://github.com/axios/axios) (Para usar os dados do Back-End);
+
+  * [React-Router-Dom](https://reactrouter.com/web/guides/quick-start) (Configuração de rotas).
 
 
 
